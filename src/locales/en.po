@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-29T11:55:39.870Z\n"
+"PO-Revision-Date: 2025-12-29T11:55:39.870Z\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#~ msgid "Welcome to SvelteKit"
+#~ msgstr ""
+
+#~ msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "E-commerce Dashboard"
+msgstr "E-commerce Dashboard"
+
+#: src/routes/+page.svelte
+msgid "Un tableau de bord analytique complet pour gérer les ventes et les stocks en temps réel."
+msgstr "A comprehensive analytical dashboard for managing real-time sales and inventory."
+
+#: src/routes/+page.svelte
+msgid "SvelteKit"
+msgstr "SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "Tailwind"
+msgstr "Tailwind"
+
+#: src/routes/+page.svelte
+msgid "Supabase"
+msgstr "Supabase"
+
+#: src/routes/+page.svelte
+msgid "SaaS Landing Page"
+msgstr "SaaS Landing Page"
+
+#: src/routes/+page.svelte
+msgid "Page d'atterrissage optimisée pour la conversion avec animations et mode sombre."
+msgstr "Conversion-optimized landing page with animations and dark mode."
+
+#: src/routes/+page.svelte
+msgid "Svelte 5"
+msgstr "Svelte 5"
+
+#: src/routes/+page.svelte
+msgid "Framer Motion"
+msgstr "Framer Motion"
+
+#: src/routes/+page.svelte
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/routes/+page.svelte
+msgid "App de Gestion de Tâches"
+msgstr "Task Management App"
+
+#: src/routes/+page.svelte
+msgid "Une application collaborative pour équipes avec fonctionnalités temps réel."
+msgstr "A collaborative application for teams with real-time features."
+
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
+msgid "Node.js"
+msgstr "Node.js"
+
+#: src/routes/+page.svelte
+msgid "WebSockets"
+msgstr "WebSockets"
+
+#: src/routes/+page.svelte
+msgid "Svelte / SvelteKit"
+msgstr "Svelte / SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "React"
+msgstr "React"
+
+#: src/routes/+page.svelte
+msgid "Tailwind CSS"
+msgstr "Tailwind CSS"
+
+#: src/routes/+page.svelte
+msgid "PostgreSQL"
+msgstr "PostgreSQL"
+
+#: src/routes/+page.svelte
+msgid "Docker"
+msgstr "Docker"
+
+#: src/routes/+page.svelte
+msgid "Git"
+msgstr "Git"
+
+#: src/routes/+page.svelte
+msgid "MonPortfolio"
+msgstr "MyPortfolio"
+
+#: src/routes/+page.svelte
+msgid "À propos"
+msgstr "About"
+
+#: src/routes/+page.svelte
+msgid "Projets"
+msgstr "Projects"
+
+#: src/routes/+page.svelte
+msgid "Contact"
+msgstr "Contact"
+
+#: src/routes/+page.svelte
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/routes/+page.svelte
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: src/routes/+page.svelte
+msgid "Disponible pour freelance"
+msgstr "Available for freelance"
+
+#: src/routes/+page.svelte
+msgid "Créer des expériences web <0>modernes</0> et intuitives."
+msgstr "Creating <0>modern</0> and intuitive web experiences."
+
+#: src/routes/+page.svelte
+msgid ""
+"Je suis un développeur Fullstack passionné par Svelte et\n"
+"l'écosystème web moderne. Je transforme vos idées en code\n"
+"performant et maintenable."
+msgstr ""
+"I am a Fullstack developer passionate about Svelte and the\n"
+"modern web ecosystem. I transform your ideas into high-performance\n"
+"and maintainable code."
+
+#: src/routes/+page.svelte
+msgid "Me contacter"
+msgstr "Contact me"
+
+#: src/routes/+page.svelte
+msgid "Voir mes projets"
+msgstr "View my projects"
+
+#: src/routes/+page.svelte
+msgid "Technologies & Outils"
+msgstr "Technologies & Tools"
+
+#: src/routes/+page.svelte
+msgid "Projets Récents"
+msgstr "Recent Projects"
+
+#: src/routes/+page.svelte
+msgid "Une sélection de mes travaux favoris."
+msgstr "A selection of my favorite works."
+
+#: src/routes/+page.svelte
+msgid "Voir le projet"
+msgstr "View project"
+
+#: src/routes/+page.svelte
+msgid "Travaillons ensemble"
+msgstr "Let's work together"
+
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
+msgstr ""
+"Send me a message and I will get back to you as soon as\n"
+"possible."
+
+#: src/routes/+page.svelte
+msgid "Email"
+msgstr "Email"
+
+#: src/routes/+page.svelte
+msgid "Message"
+msgstr "Message"
+
+#: src/routes/+page.svelte
+msgid "Parlez-moi de votre projet..."
+msgstr "Tell me about your project..."
+
+#: src/routes/+page.svelte
+msgid "Envoyer"
+msgstr "Send"
+
+#: src/routes/+page.svelte
+msgid "Construit avec <0>SvelteKit</0> & <1>shadcn-svelte</1>."
+msgstr "Built with <0>SvelteKit</0> & <1>shadcn-svelte</1>."
+
+#: src/routes/+page.svelte
+msgid "Mentions légales"
+msgstr "Legal Notice"

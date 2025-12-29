@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-29T11:55:39.870Z\n"
+"PO-Revision-Date: 2025-12-29T11:55:39.870Z\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#~ msgid "Welcome to SvelteKit"
+#~ msgstr ""
+
+#~ msgid "Visit <0>svelte.dev/docs/kit</0> to read the documentation"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "E-commerce Dashboard"
+msgstr "Panel de Control de E-commerce"
+
+#: src/routes/+page.svelte
+msgid "Un tableau de bord analytique complet pour gérer les ventes et les stocks en temps réel."
+msgstr "Un completo panel de control analítico para gestionar ventas e inventario en tiempo real."
+
+#: src/routes/+page.svelte
+msgid "SvelteKit"
+msgstr "SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "Tailwind"
+msgstr "Tailwind"
+
+#: src/routes/+page.svelte
+msgid "Supabase"
+msgstr "Supabase"
+
+#: src/routes/+page.svelte
+msgid "SaaS Landing Page"
+msgstr "Página de Aterrizaje SaaS"
+
+#: src/routes/+page.svelte
+msgid "Page d'atterrissage optimisée pour la conversion avec animations et mode sombre."
+msgstr "Página de aterrizaje optimizada para la conversión con animaciones y modo oscuro."
+
+#: src/routes/+page.svelte
+msgid "Svelte 5"
+msgstr "Svelte 5"
+
+#: src/routes/+page.svelte
+msgid "Framer Motion"
+msgstr "Framer Motion"
+
+#: src/routes/+page.svelte
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/routes/+page.svelte
+msgid "App de Gestion de Tâches"
+msgstr "Aplicación de Gestión de Tareas"
+
+#: src/routes/+page.svelte
+msgid "Une application collaborative pour équipes avec fonctionnalités temps réel."
+msgstr "Una aplicación colaborativa para equipos con funcionalidades en tiempo real."
+
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
+msgid "Node.js"
+msgstr "Node.js"
+
+#: src/routes/+page.svelte
+msgid "WebSockets"
+msgstr "WebSockets"
+
+#: src/routes/+page.svelte
+msgid "Svelte / SvelteKit"
+msgstr "Svelte / SvelteKit"
+
+#: src/routes/+page.svelte
+msgid "React"
+msgstr "React"
+
+#: src/routes/+page.svelte
+msgid "Tailwind CSS"
+msgstr "Tailwind CSS"
+
+#: src/routes/+page.svelte
+msgid "PostgreSQL"
+msgstr "PostgreSQL"
+
+#: src/routes/+page.svelte
+msgid "Docker"
+msgstr "Docker"
+
+#: src/routes/+page.svelte
+msgid "Git"
+msgstr "Git"
+
+#: src/routes/+page.svelte
+msgid "MonPortfolio"
+msgstr "MiPortafolio"
+
+#: src/routes/+page.svelte
+msgid "À propos"
+msgstr "Acerca de"
+
+#: src/routes/+page.svelte
+msgid "Projets"
+msgstr "Proyectos"
+
+#: src/routes/+page.svelte
+msgid "Contact"
+msgstr "Contacto"
+
+#: src/routes/+page.svelte
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/routes/+page.svelte
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: src/routes/+page.svelte
+msgid "Disponible pour freelance"
+msgstr "Disponible para freelance"
+
+#: src/routes/+page.svelte
+msgid "Créer des expériences web <0>modernes</0> et intuitives."
+msgstr "Crear experiencias web <0>modernas</0> e intuitivas."
+
+#: src/routes/+page.svelte
+msgid ""
+"Je suis un développeur Fullstack passionné par Svelte et\n"
+"l'écosystème web moderne. Je transforme vos idées en code\n"
+"performant et maintenable."
+msgstr ""
+"Soy un desarrollador Fullstack apasionado por Svelte y\n"
+"el ecosistema web moderno. Transformo tus ideas en código\n"
+"performante y mantenible."
+
+#: src/routes/+page.svelte
+msgid "Me contacter"
+msgstr "Contactarme"
+
+#: src/routes/+page.svelte
+msgid "Voir mes projets"
+msgstr "Ver mis proyectos"
+
+#: src/routes/+page.svelte
+msgid "Technologies & Outils"
+msgstr "Tecnologías y Herramientas"
+
+#: src/routes/+page.svelte
+msgid "Projets Récents"
+msgstr "Proyectos Recientes"
+
+#: src/routes/+page.svelte
+msgid "Une sélection de mes travaux favoris."
+msgstr "Una selección de mis trabajos favoritos."
+
+#: src/routes/+page.svelte
+msgid "Voir le projet"
+msgstr "Ver proyecto"
+
+#: src/routes/+page.svelte
+msgid "Travaillons ensemble"
+msgstr "Trabajemos juntos"
+
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
+msgstr ""
+"Envíame un mensaje y te responderé a la\n"
+"mayor brevedad posible."
+
+#: src/routes/+page.svelte
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/routes/+page.svelte
+msgid "Message"
+msgstr "Mensaje"
+
+#: src/routes/+page.svelte
+msgid "Parlez-moi de votre projet..."
+msgstr "Cuéntame sobre tu proyecto..."
+
+#: src/routes/+page.svelte
+msgid "Envoyer"
+msgstr "Enviar"
+
+#: src/routes/+page.svelte
+msgid "Construit avec <0>SvelteKit</0> & <1>shadcn-svelte</1>."
+msgstr "Construido con <0>SvelteKit</0> y <1>shadcn-svelte</1>."
+
+#: src/routes/+page.svelte
+msgid "Mentions légales"
+msgstr "Aviso legal"
