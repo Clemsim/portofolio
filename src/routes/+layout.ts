@@ -5,7 +5,7 @@ import "../locales/main.loader.svelte.js";
 import "../locales/js.loader.js";
 
 export const ssr = false;
-
+export const prerender = true;
 export const load = async ({ url }) => {
   const locale = url.searchParams.get("locale") || sourceLocale;
 
