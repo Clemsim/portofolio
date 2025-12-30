@@ -207,20 +207,20 @@ msgstr "Impressum"
 
 #: src/routes/+page.svelte
 msgid "Intune / Microsoft Entra"
-msgstr ""
+msgstr "Intune / Microsoft Entra"
 
 #: src/routes/+page.svelte
 msgid "Git / Gitlab CI/CD"
-msgstr ""
+msgstr "Git / Gitlab CI/CD"
 
 #: src/routes/+page.svelte
 msgid "Rust"
-msgstr ""
+msgstr "Rust"
 
 #: src/routes/+page.svelte
 msgid "Clément Jallat"
-msgstr ""
+msgstr "Clément Jallat"
 
 #: src/routes/+layout.svelte
 msgid "Clément Jallat - Portofolio"
-msgstr ""
+msgstr "Clément Jallat - Portfolio"
