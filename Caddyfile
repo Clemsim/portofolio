@@ -1,0 +1,12 @@
+{
+    auto_https off
+}
+
+:80 {
+    root * build
+
+    encode gzip zstd
+    try_files {path} {path}/ /404.html
+
+    file_server
+}
