@@ -132,15 +132,14 @@ msgstr "Disponible pour freelance"
 msgid "Créer des expériences web <0>modernes</0> et intuitives."
 msgstr "Créer des expériences web <0>modernes</0> et intuitives."
 
-#: src/routes/+page.svelte
-msgid ""
-"Je suis un développeur Fullstack passionné par Svelte et\n"
-"l'écosystème web moderne. Je transforme vos idées en code\n"
-"performant et maintenable."
-msgstr ""
-"Je suis un développeur Fullstack passionné par Svelte et\n"
-"l'écosystème web moderne. Je transforme vos idées en code\n"
-"performant et maintenable."
+#~ msgid ""
+#~ "Je suis un développeur Fullstack passionné par Svelte et\n"
+#~ "l'écosystème web moderne. Je transforme vos idées en code\n"
+#~ "performant et maintenable."
+#~ msgstr ""
+#~ "Je suis un développeur Fullstack passionné par Svelte et\n"
+#~ "l'écosystème web moderne. Je transforme vos idées en code\n"
+#~ "performant et maintenable."
 
 #: src/routes/+page.svelte
 msgid "Me contacter"
@@ -170,13 +169,12 @@ msgstr "Voir le projet"
 msgid "Travaillons ensemble"
 msgstr "Travaillons ensemble"
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans les\n"
-"plus brefs délais."
-msgstr ""
-"Envoyez-moi un message et je vous répondrai dans les\n"
-"plus brefs délais."
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans les\n"
+#~ "plus brefs délais."
+#~ msgstr ""
+#~ "Envoyez-moi un message et je vous répondrai dans les\n"
+#~ "plus brefs délais."
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -224,3 +222,65 @@ msgstr "Clément Jallat"
 #: src/routes/+layout.svelte
 msgid "Clément Jallat - Portofolio"
 msgstr "Clément Jallat - Portofolio"
+
+#: src/routes/+page.svelte
+msgid ""
+"Je suis un développeur Fullstack passionné par\n"
+"Svelte et l'écosystème web moderne. Je transforme\n"
+"vos idées en code performant et maintenable."
+msgstr ""
+"Je suis un développeur Fullstack passionné par\n"
+"Svelte et l'écosystème web moderne. Je transforme\n"
+"vos idées en code performant et maintenable."
+
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans\n"
+"les plus brefs délais."
+msgstr ""
+"Envoyez-moi un message et je vous répondrai dans\n"
+"les plus brefs délais."
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Changer le thème"
+msgstr "Changer le thème"
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Clair"
+msgstr "Clair"
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Sombre"
+msgstr "Sombre"
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Système"
+msgstr "Système"
+
+#: src/lib/components/language-toggle.svelte
+msgid "Français"
+msgstr "Français"
+
+#: src/lib/components/language-toggle.svelte
+msgid "English"
+msgstr "English"
+
+#: src/lib/components/language-toggle.svelte
+msgid "Español"
+msgstr "Español"
+
+#: src/lib/components/language-toggle.svelte
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: src/lib/components/language-toggle.svelte
+msgid "Italiano"
+msgstr "Italiano"
+
+#: src/lib/components/language-toggle.svelte
+msgid "日本語"
+msgstr "日本語"
+
+#: src/lib/components/language-toggle.svelte
+msgid "Changer la langue"
+msgstr "Changer la langue"

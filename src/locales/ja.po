@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-30T11:54:44.867Z\n"
 "PO-Revision-Date: 2025-12-30T11:54:44.867Z\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
 
 #: src/routes/+layout.svelte
 msgid "Clément Jallat - Portofolio"
@@ -133,14 +137,13 @@ msgstr "フリーランス利用可能"
 msgid "Créer des expériences web <0>modernes</0> et intuitives."
 msgstr "<0>モダン</0>で直感的なウェブ体験を創造する。"
 
-#: src/routes/+page.svelte
-msgid ""
-"Je suis un développeur Fullstack passionné par Svelte et\n"
-"l'écosystème web moderne. Je transforme vos idées en code\n"
-"performant et maintenable."
-msgstr ""
-"私はSvelteとモダンなウェブエコシステムに情熱を傾けるフルスタック開発者です。\n"
-"あなたのアイデアを高性能で保守性の高いコードに変えます。"
+#~ msgid ""
+#~ "Je suis un développeur Fullstack passionné par Svelte et\n"
+#~ "l'écosystème web moderne. Je transforme vos idées en code\n"
+#~ "performant et maintenable."
+#~ msgstr ""
+#~ "私はSvelteとモダンなウェブエコシステムに情熱を傾けるフルスタック開発者です。\n"
+#~ "あなたのアイデアを高性能で保守性の高いコードに変えます。"
 
 #: src/routes/+page.svelte
 msgid "Me contacter"
@@ -170,13 +173,12 @@ msgstr "プロジェクトを見る"
 msgid "Travaillons ensemble"
 msgstr "一緒に働きましょう"
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans les\n"
-"plus brefs délais."
-msgstr ""
-"メッセージをお送りください。\n"
-"できるだけ早く返信いたします。"
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans les\n"
+#~ "plus brefs délais."
+#~ msgstr ""
+#~ "メッセージをお送りください。\n"
+#~ "できるだけ早く返信いたします。"
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -201,3 +203,60 @@ msgstr "<0>SvelteKit</0> & <1>shadcn-svelte</1> で構築。"
 #: src/routes/+page.svelte
 msgid "Mentions légales"
 msgstr "法的通知"
+
+#: src/routes/+page.svelte
+msgid ""
+"Je suis un développeur Fullstack passionné par\n"
+"Svelte et l'écosystème web moderne. Je transforme\n"
+"vos idées en code performant et maintenable."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans\n"
+"les plus brefs délais."
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Changer le thème"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Clair"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Sombre"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Système"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Français"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "English"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Español"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Deutsch"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Italiano"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "日本語"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Changer la langue"
+msgstr ""

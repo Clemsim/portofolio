@@ -132,15 +132,14 @@ msgstr "Available for freelance"
 msgid "Créer des expériences web <0>modernes</0> et intuitives."
 msgstr "Creating <0>modern</0> and intuitive web experiences."
 
-#: src/routes/+page.svelte
-msgid ""
-"Je suis un développeur Fullstack passionné par Svelte et\n"
-"l'écosystème web moderne. Je transforme vos idées en code\n"
-"performant et maintenable."
-msgstr ""
-"I am a Fullstack developer passionate about Svelte and the\n"
-"modern web ecosystem. I transform your ideas into high-performance\n"
-"and maintainable code."
+#~ msgid ""
+#~ "Je suis un développeur Fullstack passionné par Svelte et\n"
+#~ "l'écosystème web moderne. Je transforme vos idées en code\n"
+#~ "performant et maintenable."
+#~ msgstr ""
+#~ "I am a Fullstack developer passionate about Svelte and the\n"
+#~ "modern web ecosystem. I transform your ideas into high-performance\n"
+#~ "and maintainable code."
 
 #: src/routes/+page.svelte
 msgid "Me contacter"
@@ -170,13 +169,12 @@ msgstr "View project"
 msgid "Travaillons ensemble"
 msgstr "Let's work together"
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans les\n"
-"plus brefs délais."
-msgstr ""
-"Send me a message and I will get back to you as soon as\n"
-"possible."
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans les\n"
+#~ "plus brefs délais."
+#~ msgstr ""
+#~ "Send me a message and I will get back to you as soon as\n"
+#~ "possible."
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -224,3 +222,60 @@ msgstr "Clément Jallat"
 #: src/routes/+layout.svelte
 msgid "Clément Jallat - Portofolio"
 msgstr "Clément Jallat - Portfolio"
+
+#: src/routes/+page.svelte
+msgid ""
+"Je suis un développeur Fullstack passionné par\n"
+"Svelte et l'écosystème web moderne. Je transforme\n"
+"vos idées en code performant et maintenable."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans\n"
+"les plus brefs délais."
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Français"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "English"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Español"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Deutsch"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Italiano"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "日本語"
+msgstr ""
+
+#: src/lib/components/language-toggle.svelte
+msgid "Changer la langue"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Changer le thème"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Clair"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Sombre"
+msgstr ""
+
+#: src/lib/components/theme-toggle.svelte
+msgid "Système"
+msgstr ""
