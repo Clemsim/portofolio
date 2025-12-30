@@ -6,8 +6,9 @@
     import { Input } from "$lib/components/ui/input/index.js";
     import { Textarea } from "$lib/components/ui/textarea/index.js";
     import { Label } from "$lib/components/ui/label/index.js";
+    import { fly, fade } from "svelte/transition";
 
-    // Données pour les projets
+    let animate = $state(true);
     const projects = [
         {
             title: "E-commerce Dashboard",
@@ -32,16 +33,15 @@
         },
     ];
 
-    // Données pour les compétences
     const skills = [
+        "Intune / Microsoft Entra",
         "Svelte / SvelteKit",
-        "React",
         "TypeScript",
+        "Rust",
         "Tailwind CSS",
-        "Node.js",
         "PostgreSQL",
         "Docker",
-        "Git",
+        "Git / Gitlab CI/CD",
     ];
 </script>
 
@@ -57,7 +57,7 @@
         >
             <div class="flex items-center gap-2 font-bold text-lg">
                 <!-- Logo texte uniquement -->
-                <span>MonPortfolio</span>
+                <span>Clément Jallat</span>
             </div>
             <nav class="hidden md:flex gap-6 text-sm font-medium">
                 <a href="#about" class="transition-colors hover:text-primary"
@@ -71,19 +71,25 @@
                 >
             </nav>
             <div class="flex gap-2">
-                <!-- Remplacement des icônes par du texte -->
-                <Button variant="ghost" size="sm" href="https://github.com">
+                <Button
+                    variant="ghost"
+                    size="sm"
+                    href="https://github.com/Clemsim/"
+                >
                     GitHub
                 </Button>
-                <Button variant="ghost" size="sm" href="https://linkedin.com">
+                <Button
+                    variant="ghost"
+                    size="sm"
+                    href="www.linkedin.com/in/clément-jallat"
+                >
                     LinkedIn
                 </Button>
             </div>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 md:px-8">
-        <!-- Section Hero -->
+    <main class="container mx-auto px-4 md:px-8 transition:fade">
         <section
             id="about"
             class="py-24 md:py-32 flex flex-col items-start gap-6 max-w-3xl"
@@ -98,7 +104,7 @@
                     >modernes</span
                 > et intuitives.
             </h1>
-            <p class="text-xl text-muted-foreground max-w-[600px]">
+            <p class="text-xl text-muted-foreground max-w-150">
                 Je suis un développeur Fullstack passionné par Svelte et
                 l'écosystème web moderne. Je transforme vos idées en code
                 performant et maintenable.

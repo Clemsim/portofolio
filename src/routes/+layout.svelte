@@ -7,6 +7,7 @@
 
 <svelte:head>
     <link rel="icon" href={favicon} />
+    <title>Clément Jallat - Portofolio</title>
 </svelte:head>
 
 {@render children()}

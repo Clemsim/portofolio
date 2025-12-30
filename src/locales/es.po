@@ -72,7 +72,6 @@ msgid "TypeScript"
 msgstr "TypeScript"
 
 #: src/routes/+page.svelte
-#: src/routes/+page.svelte
 msgid "Node.js"
 msgstr "Node.js"
 
@@ -84,9 +83,8 @@ msgstr "WebSockets"
 msgid "Svelte / SvelteKit"
 msgstr "Svelte / SvelteKit"
 
-#: src/routes/+page.svelte
-msgid "React"
-msgstr "React"
+#~ msgid "React"
+#~ msgstr "React"
 
 #: src/routes/+page.svelte
 msgid "Tailwind CSS"
@@ -100,13 +98,11 @@ msgstr "PostgreSQL"
 msgid "Docker"
 msgstr "Docker"
 
-#: src/routes/+page.svelte
-msgid "Git"
-msgstr "Git"
+#~ msgid "Git"
+#~ msgstr "Git"
 
-#: src/routes/+page.svelte
-msgid "MonPortfolio"
-msgstr "MiPortafolio"
+#~ msgid "MonPortfolio"
+#~ msgstr "MiPortafolio"
 
 #: src/routes/+page.svelte
 msgid "À propos"
@@ -205,3 +201,26 @@ msgstr "Construido con <0>SvelteKit</0> y <1>shadcn-svelte</1>."
 #: src/routes/+page.svelte
 msgid "Mentions légales"
 msgstr "Aviso legal"
+
+#~ msgid "Bun"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Intune / Microsoft Entra"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Git / Gitlab CI/CD"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Rust"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Clément Jallat"
+msgstr ""
+
+#: src/routes/+layout.svelte
+msgid "Clément Jallat - Portofolio"
+msgstr ""
