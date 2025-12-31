@@ -106,7 +106,7 @@
         <!-- Section Hero avec Vagues Layered -->
         <section
             id="about"
-            class="relative pt-24 pb-32 md:pt-32 md:pb-48 overflow-hidden"
+            class="relative min-h-[calc(100vh-3.5rem)] pt-24 pb-32 md:pt-32 md:pb-48 overflow-hidden"
         >
             <div class="container mx-auto px-4 md:px-8 relative z-10">
                 <div class="flex flex-col items-start gap-6 max-w-3xl">
