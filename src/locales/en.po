@@ -230,6 +230,9 @@ msgid ""
 "Svelte et l'écosystème web moderne. Je transforme\n"
 "vos idées en code performant et maintenable."
 msgstr ""
+"I'm a Fullstack developer passionate about Svelte\n"
+"and the modern web ecosystem. I transform your\n"
+"ideas into performant and maintainable code."
 
 #~ msgid ""
 #~ "Envoyez-moi un message et je vous répondrai dans\n"
@@ -238,54 +241,54 @@ msgstr ""
 
 #: src/lib/components/language-toggle.svelte
 msgid "Français"
-msgstr ""
+msgstr "French"
 
 #: src/lib/components/language-toggle.svelte
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Español"
-msgstr ""
+msgstr "Spanish"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Deutsch"
-msgstr ""
+msgstr "German"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "Italian"
 
 #: src/lib/components/language-toggle.svelte
 msgid "日本語"
-msgstr ""
+msgstr "Japanese"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Changer la langue"
-msgstr ""
+msgstr "Change language"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Changer le thème"
-msgstr ""
+msgstr "Toggle theme"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Clair"
-msgstr ""
+msgstr "Light"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Sombre"
-msgstr ""
+msgstr "Dark"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Système"
-msgstr ""
+msgstr "System"
 
 #~ msgid "Git / Gitlab CI/CD / GitHub Actions"
 #~ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Message envoyé avec succès !"
-msgstr ""
+msgstr "Message sent successfully!"
 
 #~ msgid "Erreur lors de l'envoi."
 #~ msgstr ""
@@ -295,20 +298,18 @@ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Envoi en cours..."
-msgstr ""
+msgstr "Sending..."
 
 #: src/routes/+page.svelte
 msgid "Une erreur est survenue."
-msgstr ""
+msgstr "An error occurred."
 
 #: src/routes/+page.svelte
 msgid "Problème de connexion."
-msgstr ""
+msgstr "Connection problem."
 
-#: src/routes/+page.svelte
-msgid "Email invalide"
-msgstr ""
+#~ msgid "Email invalide"
+#~ msgstr ""
 
-#: src/routes/+page.svelte
-msgid "Le message doit faire au moins 10 caractères"
-msgstr ""
+#~ msgid "Le message doit faire au moins 10 caractères"
+#~ msgstr ""

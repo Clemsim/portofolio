@@ -287,10 +287,8 @@ msgstr ""
 msgid "Problème de connexion."
 msgstr ""
 
-#: src/routes/+page.svelte
-msgid "Email invalide"
-msgstr ""
+#~ msgid "Email invalide"
+#~ msgstr ""
 
-#: src/routes/+page.svelte
-msgid "Le message doit faire au moins 10 caractères"
-msgstr ""
+#~ msgid "Le message doit faire au moins 10 caractères"
+#~ msgstr ""

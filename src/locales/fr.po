@@ -310,10 +310,8 @@ msgstr "Une erreur est survenue."
 msgid "Problème de connexion."
 msgstr "Problème de connexion."
 
-#: src/routes/+page.svelte
-msgid "Email invalide"
-msgstr "Email invalide"
+#~ msgid "Email invalide"
+#~ msgstr "Email invalide"
 
-#: src/routes/+page.svelte
-msgid "Le message doit faire au moins 10 caractères"
-msgstr "Le message doit faire au moins 10 caractères"
+#~ msgid "Le message doit faire au moins 10 caractères"
+#~ msgstr "Le message doit faire au moins 10 caractères"
