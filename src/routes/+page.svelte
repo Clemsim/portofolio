@@ -92,7 +92,7 @@
                 <Button
                     variant="ghost"
                     size="sm"
-                    href="www.linkedin.com/in/clément-jallat"
+                    href="https://www.linkedin.com/in/clément-jallat"
                 >
                     LinkedIn
                 </Button>
