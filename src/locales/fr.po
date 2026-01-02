@@ -169,12 +169,13 @@ msgstr "Voir le projet"
 msgid "Travaillons ensemble"
 msgstr "Travaillons ensemble"
 
-#~ msgid ""
-#~ "Envoyez-moi un message et je vous répondrai dans les\n"
-#~ "plus brefs délais."
-#~ msgstr ""
-#~ "Envoyez-moi un message et je vous répondrai dans les\n"
-#~ "plus brefs délais."
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
+msgstr ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -233,13 +234,12 @@ msgstr ""
 "Svelte et l'écosystème web moderne. Je transforme\n"
 "vos idées en code performant et maintenable."
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans\n"
-"les plus brefs délais."
-msgstr ""
-"Envoyez-moi un message et je vous répondrai dans\n"
-"les plus brefs délais."
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans\n"
+#~ "les plus brefs délais."
+#~ msgstr ""
+#~ "Envoyez-moi un message et je vous répondrai dans\n"
+#~ "les plus brefs délais."
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Changer le thème"
@@ -284,3 +284,36 @@ msgstr "日本語"
 #: src/lib/components/language-toggle.svelte
 msgid "Changer la langue"
 msgstr "Changer la langue"
+
+#~ msgid "Git / Gitlab CI/CD / GitHub Actions"
+#~ msgstr "Git / Gitlab CI/CD / GitHub Actions"
+
+#: src/routes/+page.svelte
+msgid "Message envoyé avec succès !"
+msgstr "Message envoyé avec succès !"
+
+#~ msgid "Erreur lors de l'envoi."
+#~ msgstr "Erreur lors de l'envoi."
+
+#~ msgid "Erreur réseau."
+#~ msgstr "Erreur réseau."
+
+#: src/routes/+page.svelte
+msgid "Envoi en cours..."
+msgstr "Envoi en cours..."
+
+#: src/routes/+page.svelte
+msgid "Une erreur est survenue."
+msgstr "Une erreur est survenue."
+
+#: src/routes/+page.svelte
+msgid "Problème de connexion."
+msgstr "Problème de connexion."
+
+#: src/routes/+page.svelte
+msgid "Email invalide"
+msgstr "Email invalide"
+
+#: src/routes/+page.svelte
+msgid "Le message doit faire au moins 10 caractères"
+msgstr "Le message doit faire au moins 10 caractères"

@@ -174,12 +174,13 @@ msgstr "Vedi il progetto"
 msgid "Travaillons ensemble"
 msgstr "Lavoriamo insieme"
 
-#~ msgid ""
-#~ "Envoyez-moi un message et je vous répondrai dans les\n"
-#~ "plus brefs délais."
-#~ msgstr ""
-#~ "Inviami un messaggio e ti risponderò il prima\n"
-#~ "possibile."
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
+msgstr ""
+"Inviami un messaggio e ti risponderò il prima\n"
+"possibile."
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -212,11 +213,10 @@ msgid ""
 "vos idées en code performant et maintenable."
 msgstr ""
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans\n"
-"les plus brefs délais."
-msgstr ""
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans\n"
+#~ "les plus brefs délais."
+#~ msgstr ""
 
 #: src/lib/components/language-toggle.svelte
 msgid "Français"
@@ -260,4 +260,37 @@ msgstr ""
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Système"
+msgstr ""
+
+#~ msgid "Git / Gitlab CI/CD / GitHub Actions"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Message envoyé avec succès !"
+msgstr ""
+
+#~ msgid "Erreur lors de l'envoi."
+#~ msgstr ""
+
+#~ msgid "Erreur réseau."
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Envoi en cours..."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Une erreur est survenue."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Problème de connexion."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Email invalide"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Le message doit faire au moins 10 caractères"
 msgstr ""

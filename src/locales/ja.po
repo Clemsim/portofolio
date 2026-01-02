@@ -173,12 +173,13 @@ msgstr "プロジェクトを見る"
 msgid "Travaillons ensemble"
 msgstr "一緒に働きましょう"
 
-#~ msgid ""
-#~ "Envoyez-moi un message et je vous répondrai dans les\n"
-#~ "plus brefs délais."
-#~ msgstr ""
-#~ "メッセージをお送りください。\n"
-#~ "できるだけ早く返信いたします。"
+#: src/routes/+page.svelte
+msgid ""
+"Envoyez-moi un message et je vous répondrai dans les\n"
+"plus brefs délais."
+msgstr ""
+"メッセージをお送りください。\n"
+"できるだけ早く返信いたします。"
 
 #: src/routes/+page.svelte
 msgid "Email"
@@ -211,11 +212,10 @@ msgid ""
 "vos idées en code performant et maintenable."
 msgstr ""
 
-#: src/routes/+page.svelte
-msgid ""
-"Envoyez-moi un message et je vous répondrai dans\n"
-"les plus brefs délais."
-msgstr ""
+#~ msgid ""
+#~ "Envoyez-moi un message et je vous répondrai dans\n"
+#~ "les plus brefs délais."
+#~ msgstr ""
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Changer le thème"
@@ -259,4 +259,37 @@ msgstr ""
 
 #: src/lib/components/language-toggle.svelte
 msgid "Changer la langue"
+msgstr ""
+
+#~ msgid "Git / Gitlab CI/CD / GitHub Actions"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Message envoyé avec succès !"
+msgstr ""
+
+#~ msgid "Erreur lors de l'envoi."
+#~ msgstr ""
+
+#~ msgid "Erreur réseau."
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Envoi en cours..."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Une erreur est survenue."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Problème de connexion."
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Email invalide"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Le message doit faire au moins 10 caractères"
 msgstr ""

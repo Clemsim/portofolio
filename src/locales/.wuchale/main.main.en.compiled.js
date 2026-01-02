@@ -1,2 +1,16 @@
-/** @type import('wuchale').CompiledElement[] */
-export let c = ["E-commerce Dashboard","A comprehensive analytical dashboard for managing real-time sales and inventory.","SvelteKit","Tailwind","Supabase","SaaS Landing Page","Conversion-optimized landing page with animations and dark mode.","Svelte 5","Framer Motion","Stripe","Task Management App","A collaborative application for teams with real-time features.","TypeScript","Node.js","WebSockets","Svelte / SvelteKit","Tailwind CSS","PostgreSQL","Docker","About","Projects","Contact","GitHub","LinkedIn","Available for freelance",["Creating ",[0,"modern"]," and intuitive web experiences."],"Contact me","View my projects","Technologies & Tools","Recent Projects","A selection of my favorite works.","View project","Let's work together","Email","Message","Tell me about your project...","Send",["Built with ",[0,"SvelteKit"]," & ",[1,"shadcn-svelte"],"."],"Legal Notice","Intune / Microsoft Entra","Git / Gitlab CI/CD","Rust","Clément Jallat","Clément Jallat - Portfolio","Je suis un développeur Fullstack passionné par\nSvelte et l'écosystème web moderne. Je transforme\nvos idées en code performant et maintenable.","Envoyez-moi un message et je vous répondrai dans\nles plus brefs délais.","Changer le thème","Clair","Sombre","Système","Français","English","Español","Deutsch","Italiano","日本語","Changer la langue"]
+
+            /** @type import('wuchale').CompiledElement[] */
+export let c = ["E-commerce Dashboard","A comprehensive analytical dashboard for managing real-time sales and inventory.","SvelteKit","Tailwind","Supabase","SaaS Landing Page","Conversion-optimized landing page with animations and dark mode.","Svelte 5","Framer Motion","Stripe","Task Management App","A collaborative application for teams with real-time features.","TypeScript","Node.js","WebSockets","Svelte / SvelteKit","Tailwind CSS","PostgreSQL","Docker","About","Projects","Contact","GitHub","LinkedIn","Available for freelance",["Creating ",[0,"modern"]," and intuitive web experiences."],"Contact me","View my projects","Technologies & Tools","Recent Projects","A selection of my favorite works.","View project","Let's work together","Send me a message and I will get back to you as soon as\npossible.","Email","Message","Tell me about your project...","Send",["Built with ",[0,"SvelteKit"]," & ",[1,"shadcn-svelte"],"."],"Legal Notice","Intune / Microsoft Entra","Git / Gitlab CI/CD","Rust","Clément Jallat","Clément Jallat - Portfolio","Je suis un développeur Fullstack passionné par\nSvelte et l'écosystème web moderne. Je transforme\nvos idées en code performant et maintenable.","Changer le thème","Clair","Sombre","Système","Français","English","Español","Deutsch","Italiano","日本語","Changer la langue","Message envoyé avec succès !","Envoi en cours...","Une erreur est survenue.","Problème de connexion.","Email invalide","Le message doit faire au moins 10 caractères"]
+            // only during dev, for HMR
+            let latestVersion = -1
+            // @ts-ignore
+            export function update({ version, data }) {
+                if (latestVersion >= version) {
+                    return
+                }
+                for (const [ index, item ] of data['en'] ?? []) {
+                    c[index] = item
+                }
+                latestVersion = version
+            }
+        

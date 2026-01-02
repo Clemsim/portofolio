@@ -2,20 +2,67 @@
     import { Button } from "$lib/components/ui/button/index.js";
     import * as Card from "$lib/components/ui/card/index.js";
     import { Badge } from "$lib/components/ui/badge/index.js";
-    import { Separator } from "$lib/components/ui/separator/index.js";
     import { Input } from "$lib/components/ui/input/index.js";
     import { Textarea } from "$lib/components/ui/textarea/index.js";
     import { Label } from "$lib/components/ui/label/index.js";
-
-    import ModeToggle from "$lib/components/theme-toggle.svelte";
-    import LanguageToggle from "$lib/components/language-toggle.svelte";
-
-    import { fly, fade } from "svelte/transition";
-    import { backOut } from "svelte/easing";
+    import { fade } from "svelte/transition";
+    import { fly } from "svelte/transition";
     import { onMount } from "svelte";
+    import { backOut } from "svelte/easing";
+    import WavesBackground from "$lib/components/waves-background.svelte";
+    import LanguageToggle from "$lib/components/language-toggle.svelte";
+    import ModeToggle from "$lib/components/theme-toggle.svelte";
+    import { z } from "zod";
+    import { superForm } from "sveltekit-superforms";
+    import { zodClient } from "sveltekit-superforms/adapters";
+    import { contactSchema } from "$lib/schema";
+    const initialFormData = {
+        email: "",
+        message: "",
+    };
+
+    const { form, errors, constraints, enhance, message, delayed } = superForm(
+        initialFormData,
+        {
+            SPA: true,
+            validators: zodClient(contactSchema),
+            onUpdate: async ({ form }) => {
+                if (form.valid) {
+                    try {
+                        const response = await fetch(
+                            "https://formspree.io/f/meeogeky",
+                            {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
+                                body: JSON.stringify(form.data),
+                            },
+                        );
+
+                        if (response.ok) {
+                            message.set({
+                                type: "success",
+                                text: "Message envoyé avec succès !",
+                            });
+                            form.data.email = "";
+                            form.data.message = "";
+                        } else {
+                            message.set({
+                                type: "error",
+                                text: "Une erreur est survenue.",
+                            });
+                        }
+                    } catch (e) {
+                        message.set({
+                            type: "error",
+                            text: "Problème de connexion.",
+                        });
+                    }
+                }
+            },
+        },
+    );
 
     let ready = $state(false);
-
     onMount(() => {
         ready = true;
     });
@@ -178,54 +225,7 @@
                     {/if}
                 </div>
             </div>
-
-            <!-- VAGUES SUPERPOSÉES -->
-            <!-- J'ai augmenté un peu la hauteur (h-[150px] md:h-[300px]) car il y a 5 couches -->
-            <div
-                class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] pointer-events-none -z-0"
-            >
-                <svg
-                    class="relative block w-full h-[150px] md:h-[300px]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 900 600"
-                    preserveAspectRatio="none"
-                >
-                    <!-- Couche 1 : Bleu très clair (Fond) -->
-                    <path
-                        class="text-primary/5"
-                        fill="currentColor"
-                        d="M0 436L21.5 432.5C43 429 86 422 128.8 423.2C171.7 424.3 214.3 433.7 257.2 435.8C300 438 343 433 385.8 428.7C428.7 424.3 471.3 420.7 514.2 418C557 415.3 600 413.7 642.8 416.8C685.7 420 728.3 428 771.2 422.5C814 417 857 398 878.5 388.5L900 379L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z"
-                    ></path>
-
-                    <!-- Couche 2 : Bleu un peu plus visible -->
-                    <path
-                        class="text-primary/10"
-                        fill="currentColor"
-                        d="M0 482L21.5 469.5C43 457 86 432 128.8 431.7C171.7 431.3 214.3 455.7 257.2 460.7C300 465.7 343 451.3 385.8 446.3C428.7 441.3 471.3 445.7 514.2 446.2C557 446.7 600 443.3 642.8 446.8C685.7 450.3 728.3 460.7 771.2 458.8C814 457 857 443 878.5 436L900 429L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z"
-                    ></path>
-
-                    <!-- Couche 3 : Bleu moyen -->
-                    <path
-                        class="text-primary/20"
-                        fill="currentColor"
-                        d="M0 435L21.5 446C43 457 86 479 128.8 488C171.7 497 214.3 493 257.2 488.7C300 484.3 343 479.7 385.8 480.7C428.7 481.7 471.3 488.3 514.2 484.3C557 480.3 600 465.7 642.8 460.2C685.7 454.7 728.3 458.3 771.2 460C814 461.7 857 461.3 878.5 461.2L900 461L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z"
-                    ></path>
-
-                    <!-- Couche 4 : Transition vers le violet (Secondary) -->
-                    <path
-                        class="text-secondary/15"
-                        fill="currentColor"
-                        d="M0 542L21.5 542.5C43 543 86 544 128.8 540.2C171.7 536.3 214.3 527.7 257.2 521C300 514.3 343 509.7 385.8 514.2C428.7 518.7 471.3 532.3 514.2 528.5C557 524.7 600 503.3 642.8 499.5C685.7 495.7 728.3 509.3 771.2 511.7C814 514 857 505 878.5 500.5L900 496L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z"
-                    ></path>
-
-                    <!-- Couche 5 : Violet le plus marqué (Devant) -->
-                    <path
-                        class="text-secondary/25"
-                        fill="currentColor"
-                        d="M0 560L21.5 562.3C43 564.7 86 569.3 128.8 568C171.7 566.7 214.3 559.3 257.2 553.8C300 548.3 343 544.7 385.8 543.7C428.7 542.7 471.3 544.3 514.2 545C557 545.7 600 545.3 642.8 546.3C685.7 547.3 728.3 549.7 771.2 550.7C814 551.7 857 551.3 878.5 551.2L900 551L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z"
-                    ></path>
-                </svg>
-            </div>
+            <WavesBackground />
         </section>
 
         <!-- Section Compétences -->
@@ -325,31 +325,86 @@
                         <Card.Title class="text-2xl"
                             >Travaillons ensemble</Card.Title
                         >
-                        <Card.Description
-                            >Envoyez-moi un message et je vous répondrai dans
-                            les plus brefs délais.</Card.Description
-                        >
+                        <Card.Description>
+                            Envoyez-moi un message et je vous répondrai dans les
+                            plus brefs délais.
+                        </Card.Description>
                     </Card.Header>
                     <Card.Content>
-                        <form class="grid gap-4">
+                        <!-- Feedback visuel (Succès / Erreur) -->
+                        {#if $message}
+                            <div
+                                class="mb-4 p-3 rounded-md text-sm font-medium border
+                                {$message.type === 'success'
+                                    ? 'bg-green-100 text-green-800 border-green-200 dark:bg-green-900/30 dark:text-green-300 dark:border-green-800'
+                                    : 'bg-red-100 text-red-800 border-red-200 dark:bg-red-900/30 dark:text-red-300 dark:border-red-800'}"
+                            >
+                                {$message.text}
+                            </div>
+                        {/if}
+
+                        <form method="POST" use:enhance class="grid gap-4">
                             <div class="grid gap-2">
                                 <Label for="email">Email</Label>
                                 <Input
                                     id="email"
+                                    name="email"
                                     type="email"
                                     placeholder="votre@email.com"
+                                    bind:value={$form.email}
+                                    aria-invalid={$errors.email
+                                        ? "true"
+                                        : undefined}
+                                    {...$constraints.email}
+                                    class={$errors.email
+                                        ? "border-destructive focus-visible:ring-destructive"
+                                        : ""}
                                 />
+                                {#if $errors.email}
+                                    <span
+                                        class="text-destructive text-sm font-medium"
+                                        >{$errors.email}</span
+                                    >
+                                {/if}
                             </div>
+
                             <div class="grid gap-2">
                                 <Label for="message">Message</Label>
                                 <Textarea
                                     id="message"
+                                    name="message"
                                     placeholder="Parlez-moi de votre projet..."
                                     rows={4}
+                                    bind:value={$form.message}
+                                    aria-invalid={$errors.message
+                                        ? "true"
+                                        : undefined}
+                                    {...$constraints.message}
+                                    class={$errors.message
+                                        ? "border-destructive focus-visible:ring-destructive"
+                                        : ""}
                                 />
+                                {#if $errors.message}
+                                    <span
+                                        class="text-destructive text-sm font-medium"
+                                        >{$errors.message}</span
+                                    >
+                                {/if}
                             </div>
-                            <Button type="submit" class="w-full">Envoyer</Button
+
+                            <Button
+                                type="submit"
+                                class="w-full"
+                                disabled={$delayed}
                             >
+                                {#if $delayed}
+                                    <span class="animate-pulse"
+                                        >Envoi en cours...</span
+                                    >
+                                {:else}
+                                    Envoyer
+                                {/if}
+                            </Button>
                         </form>
                     </Card.Content>
                 </Card.Root>
