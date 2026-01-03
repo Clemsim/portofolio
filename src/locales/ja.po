@@ -211,6 +211,8 @@ msgid ""
 "Svelte et l'écosystème web moderne. Je transforme\n"
 "vos idées en code performant et maintenable."
 msgstr ""
+"私はSvelteとモダンなウェブエコシステムに情熱を傾けるフルスタック開発者です。\n"
+"あなたのアイデアを、高性能で保守可能なコードに変えます。"
 
 #~ msgid ""
 #~ "Envoyez-moi un message et je vous répondrai dans\n"
@@ -219,54 +221,54 @@ msgstr ""
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Changer le thème"
-msgstr ""
+msgstr "テーマを変更"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Clair"
-msgstr ""
+msgstr "ライト"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Sombre"
-msgstr ""
+msgstr "ダーク"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Système"
-msgstr ""
+msgstr "システム"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Français"
-msgstr ""
+msgstr "フランス語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "English"
-msgstr ""
+msgstr "英語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Español"
-msgstr ""
+msgstr "スペイン語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Deutsch"
-msgstr ""
+msgstr "ドイツ語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "イタリア語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "日本語"
-msgstr ""
+msgstr "日本語"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Changer la langue"
-msgstr ""
+msgstr "言語を変更"
 
 #~ msgid "Git / Gitlab CI/CD / GitHub Actions"
 #~ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Message envoyé avec succès !"
-msgstr ""
+msgstr "メッセージが正常に送信されました！"
 
 #~ msgid "Erreur lors de l'envoi."
 #~ msgstr ""
@@ -276,15 +278,15 @@ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Envoi en cours..."
-msgstr ""
+msgstr "送信中..."
 
 #: src/routes/+page.svelte
 msgid "Une erreur est survenue."
-msgstr ""
+msgstr "エラーが発生しました。"
 
 #: src/routes/+page.svelte
 msgid "Problème de connexion."
-msgstr ""
+msgstr "接続の問題。"
 
 #~ msgid "Email invalide"
 #~ msgstr ""

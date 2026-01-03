@@ -212,6 +212,9 @@ msgid ""
 "Svelte et l'écosystème web moderne. Je transforme\n"
 "vos idées en code performant et maintenable."
 msgstr ""
+"Sono uno sviluppatore Fullstack appassionato di\n"
+"Svelte e dell'ecosistema web moderno. Trasformo\n"
+"le tue idee in codice performante e manutenibile."
 
 #~ msgid ""
 #~ "Envoyez-moi un message et je vous répondrai dans\n"
@@ -220,54 +223,54 @@ msgstr ""
 
 #: src/lib/components/language-toggle.svelte
 msgid "Français"
-msgstr ""
+msgstr "Francese"
 
 #: src/lib/components/language-toggle.svelte
 msgid "English"
-msgstr ""
+msgstr "Inglese"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Español"
-msgstr ""
+msgstr "Spagnolo"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Deutsch"
-msgstr ""
+msgstr "Tedesco"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "Italiano"
 
 #: src/lib/components/language-toggle.svelte
 msgid "日本語"
-msgstr ""
+msgstr "Giapponese"
 
 #: src/lib/components/language-toggle.svelte
 msgid "Changer la langue"
-msgstr ""
+msgstr "Cambia lingua"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Changer le thème"
-msgstr ""
+msgstr "Cambia tema"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Clair"
-msgstr ""
+msgstr "Chiaro"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Sombre"
-msgstr ""
+msgstr "Scuro"
 
 #: src/lib/components/theme-toggle.svelte
 msgid "Système"
-msgstr ""
+msgstr "Sistema"
 
 #~ msgid "Git / Gitlab CI/CD / GitHub Actions"
 #~ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Message envoyé avec succès !"
-msgstr ""
+msgstr "Messaggio inviato con successo!"
 
 #~ msgid "Erreur lors de l'envoi."
 #~ msgstr ""
@@ -277,15 +280,15 @@ msgstr ""
 
 #: src/routes/+page.svelte
 msgid "Envoi en cours..."
-msgstr ""
+msgstr "Invio in corso..."
 
 #: src/routes/+page.svelte
 msgid "Une erreur est survenue."
-msgstr ""
+msgstr "Si è verificato un errore."
 
 #: src/routes/+page.svelte
 msgid "Problème de connexion."
-msgstr ""
+msgstr "Problema di connessione."
 
 #~ msgid "Email invalide"
 #~ msgstr ""
